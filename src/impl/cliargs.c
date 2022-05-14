@@ -68,11 +68,11 @@ PARAMETRI:
     - Indice nell'array di argomenti
     - Opzione selezionata
 ******************************************************************************/
-static void __AssertNumberOfArguments__(int __argn, int __argc__, int *__i, const char *__opt)
+static void __AssertNumberOfArguments__(int __argn, int __argc_, int *__i, const char *__opt)
 {
     int _si = *__i;
     *__i   += __argn;
-    massert(*__i < __argc__, TOO_FEW_ARGS, "L'Opzione '%s' richiede %d argomenti aggiuntivi. %d forniti.", __opt, __argn, __argc__ - _si - 1);
+    massert(*__i < __argc_, TOO_FEW_ARGS, "L'Opzione '%s' richiede %d argomenti aggiuntivi. %d forniti.", __opt, __argn, __argc_ - _si - 1);
 }
 
 /******************************************************************************
