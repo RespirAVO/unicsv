@@ -38,5 +38,5 @@ make
 ## Esecuzione
 Usare il comando
 ```sh
-make run fp=posizioni.csv fm=misure.csv fo=out.csv
+./bin/unicsv -fp ./posizioni.csv -fm ./misure.csv -fo ./out.csv -um 5
 ```

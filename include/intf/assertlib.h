@@ -20,8 +20,11 @@ limitations under the License.
 #define ASSERTLIB_H
 
     #include <stdbool.h>
+    #include <stdarg.h>
 
 
+    void    vmexit      (int __ecode, const char *__msg, va_list __args);
+    void    mexit       (int __ecode, const char *__msg, ...);
     void    massert     (bool __condition, int __ecode, const char *__msg, ...);
 
 #endif // ASSERTLIB_H

@@ -81,7 +81,7 @@ PARAMETRI:
     - Puntatore a FILE CSV
     - `pos_t` "__pos"
     - `mis_t` "__mis"
-    - mischoice_t "__opt"
+    - int "__opt"
 
 RETURN:
     - Un valore positivo se l'operazione è stata conclusa con successo

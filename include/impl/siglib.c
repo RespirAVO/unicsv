@@ -21,6 +21,7 @@ limitations under the License.
 #include <signal.h>
 #include <stdio.h>
 #include <iolib.h>
+#include <assertlib.h>
 
 #define SEGFAULT_ECODE -3
 
@@ -34,8 +35,7 @@ terminating the process.
 **************************************************************/
 static void __SegFaultHandler__(int __signum)
 {
-    println("ERRORE: Segmentation Fault - Memory error - SIGNUM %d", __signum);
-    exit(SEGFAULT_ECODE);
+    mexit(SEGFAULT_ECODE, "Segmentation Fault - Memory error - SIGNUM %d", __signum);
 }
 
 /************************************

@@ -52,9 +52,6 @@ all: $(OBJS) link
 link:
 	$(CC) -o $(BINDIR)/$(OUTFILE)$(OUTFILEEXT) $(OBJS) $(LFLAGS)
 
-run:
-	$(BINDIR)/$(OUTFILE)$(OUTFILEEXT) $(fp) $(fm) $(fo)
-
 setup:
 	@ mkdir $(BINDIR)
 	@ mkdir $(OBJDIR)
