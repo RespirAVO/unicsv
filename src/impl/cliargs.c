@@ -44,9 +44,9 @@ limitations under the License.
 
 /******************************************************************************
 PARAMETRI:
-    - Stringa "__long" che rappresenta la versione lunga del parametro
-    - Stringa "__short" che rappresenta la versione corta del parametro
-    - Stringa "__arg" Il parametro effettivament passato
+    - Stringa "__long" che rappresenta la versione lunga dell'opzione
+    - Stringa "__short" che rappresenta la versione corta dell'opzione
+    - Stringa "__arg" Il parametro effettivamente passato
 
 RETURN:
     - true se il parametro richiesto corriponde a quello fornito
