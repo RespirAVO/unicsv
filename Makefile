@@ -18,7 +18,7 @@ CXX = gcc
 CC  = $(CROSS_COMPILE)$(CXX)
 
 INCDIR  = include
-CFLAGS  = -O3 -Wall -Wextra -g -I $(INCDIR)/intf -I "src/intf"
+CFLAGS  = -O3 -g -I $(INCDIR)/intf -I "src/intf"
 LFLAGS  = -lm
 
 SRCDIR     = src
