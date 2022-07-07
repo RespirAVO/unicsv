@@ -35,6 +35,8 @@ make setup
 make
 ```
 
+In alternatva, è possibile usare [CBuild](https://github.com/Alessandro-Salerno/CBuild)
+
 ## Esecuzione
 Usare il comando
 ```sh
