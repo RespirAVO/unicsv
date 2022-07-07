@@ -1,0 +1,15 @@
+{
+    "directories": {
+        "source":  [ "src", "include" ],
+        "include": [ "include/intf", "src/intf" ],
+        "output":  "bin"
+    },
+
+    "build": {
+        "compiler":       "gcc",
+        "file extension": ".c",
+        "name":           "unicsv",
+        "release":        true,
+        "format":         "exec"
+    }
+}
