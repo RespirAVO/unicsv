@@ -145,7 +145,7 @@ void menu(int *__scelta, char __nome_mis[])
         
         // Input utente
         printf("\nscelta: ");
-        (void)scanf("%d", __scelta);  // Cast a void utilizzato per annullare valore ritornato
+        (void) scanf("%d", __scelta);  // Cast a void utilizzato per annullare valore ritornato
         
         if (numero_a_misura(*__scelta, __nome_mis)) return;
     }
